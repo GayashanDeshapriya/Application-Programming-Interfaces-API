@@ -26,13 +26,13 @@ ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's
     Example: Fetching current stock prices from a finance API over the internet.
 
 ##### Some of the API 
-  -REST (Representational State Transfer)
-  -GraphQL
-  -WebSockets
-  -webhooks
-  -SOAP (Simple Object Access Protocol)
-  -gRPC (Google Remote Procedure Call)
-  -MQTT (MQ Telemetry Transport)
+  - REST (Representational State Transfer)
+  - GraphQL
+  - WebSockets
+  - webhooks
+  - SOAP (Simple Object Access Protocol)
+  - gRPC (Google Remote Procedure Call)
+  - MQTT (MQ Telemetry Transport)
 
 
 
