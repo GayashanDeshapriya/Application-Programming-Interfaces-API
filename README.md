@@ -1,6 +1,6 @@
 # Application-Programming-Interfaces-(API)
 ### What is API:
-- An Application Programming Interface (API) is a contract that allows code to talk to other code. APIs are the building blocks of modern software because they allow for sharing of resources and services across applications, organizations, and devices.
+- An Application Programming Interface (API) is a contract that allows code to talk to other code. APIs are the building blocks of modern software because they allow for the sharing of resources and services across applications, organizations, and devices.
 
 ### Why are APIs important?
 - APIs help developers integrate exciting features and build automation without reinventing the wheel
@@ -58,10 +58,8 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
   - PUT/PATCH	Update data (Update) (PUT usually replaces an entire resource, whereas PATCH usually is for partial updates)
   - DELETE	Delete data (Delete)
 
-
+#### Request URL
 ```javascript
-// Which came first: the chicken or the egg?
-console.log(['🥚', '🐣', '🐥', '🐔'].sort())
-
->>> [ '🐔', '🐣', '🐥', '🥚' ]
+// Protocol	    Host	                              Path
+    https://	    library-api.postmanlabs.com	        /books
 ```
