@@ -34,12 +34,19 @@ ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's
   - gRPC (Google Remote Procedure Call)
   - MQTT (MQ Telemetry Transport)
 
+#### Access
+ - APIs also vary in the scope of who can access them.
+
+    ##### Public APIs (aka Open APIs)
+    - Consumed by anyone who discovers the API
+
+    ##### Private APIs
+    - Consumed only within an organization and not made public
+
+    ##### Partner APIs
+    - Consumed between one or more organizations that have an established relationship
 
 
-##### Some of my favorite open source projects
-
-
-##### Fun fact: I once solved the world's oldest question with a single line of JavaScript
 <!-- wi*quL3fcV -->
 
 ```javascript
