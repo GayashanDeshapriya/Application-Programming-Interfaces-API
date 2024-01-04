@@ -47,7 +47,17 @@ ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's
     - Consumed between one or more organizations that have an established relationship
 
 
-<!-- wi*quL3fcV -->
+#### Request methods
+  - When we make an HTTP call to a server, we specify a request method that indicates the type of operation we are about to perform. These are also called HTTP verbs.
+
+Some common HTTP request methods correspond to the CRUD operations mentioned earlier. You can see a list of more methods here.
+
+###### Method name  - Operation
+  - GET	Retrieve data (Read)
+  - POST	Send data (Create)
+  - PUT/PATCH	Update data (Update) (PUT usually replaces an entire resource, whereas PATCH usually is for partial updates)
+  - DELETE	Delete data (Delete)
+
 
 ```javascript
 // Which came first: the chicken or the egg?
