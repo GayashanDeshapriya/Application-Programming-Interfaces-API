@@ -81,7 +81,11 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
      - GET https://some-api.com/photos?orientation=landscape&size=500x400
 
 ##### Path Variable
-   - Another way of passing request data to an API is via path variables (a.k.a. "path parameters"). A path variable is a dynamic section of a path and is often used for IDs and entity names such as usernames. 
+   - Another way of passing request data to an API is via path variables (a.k.a. "path parameters"). A path variable is a dynamic section of a path and is often used for IDs and entity names such as usernames.
+
+###### Path Variable syntax
+- The path variable comes immediately after a slash in the path. For example, the GitHub API allows you to search for GitHub users by providing a username in the path in place of {username} below: 
+    GET https://api.github.com/users/{username}
 
 | Path Variable          | Query Parameters                                        |
 |------------------------|---------------------------------------------------------|
@@ -89,3 +93,11 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
 | Located directly after a slash in the path. It can be anywhere on the path | Located only at the end of a path, right after a question mark? |
 | Accepts dynamic values | Accepts defined query keys with potentially dynamic values. |
 | Often used for IDs or entity names | Often used for options and filters                       |
+
+
+### Authorization
+  - Think about why you might not want an API to have completely open endpoints that anyone can access publicly. It would allow unauthorized people to access data they shouldn't see, or allow bots to flood an API with thousands of calls per second and shut it down.
+  - There are multiple methods for authorizing a request. Some examples are
+            - Basic Auth (username and password)
+            - OAuth (delegated authorization)
+            - API Keys (secret strings registered to a developer from an API portal). 
