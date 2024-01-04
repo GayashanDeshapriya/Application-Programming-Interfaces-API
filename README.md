@@ -1,4 +1,5 @@
 # Application-Programming-Interfaces-(API)
+
 ### What is API:
 - An Application Programming Interface (API) is a contract that allows code to talk to other code. APIs are the building blocks of modern software because they allow for the sharing of resources and services across applications, organizations, and devices.
 
@@ -12,7 +13,7 @@ ex: apps that interact with Twitter or Meta APIs by posting on your behalf or re
 - APIs can be products themselves
 ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's text messaging and email APIs
 
-### Type of API s
+### Type of APIs
   #### Hardware APIs
   - Interface for software to talk to hardware.
     Example: How your phone's camera talks to the operating system.
@@ -59,7 +60,7 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
   - DELETE	Delete data (Delete)
 
 #### Request URL
-  - In addition to a request method, a request must include a request URL that indicates where to make the API call. A request URL has three parts: a protocol (such as http:// or https://), host (location of the server), and path (route on the server). In REST APIs, the path often points to a reference entity, like "books".
+  - In addition to a request method, a request must include a request URL that indicates where to make the API call. A request URL has three parts: a protocol (such as http:// or https://), host (location of the server), and a path (route on the server). In REST APIs, the path often points to a reference entity, like "books".
     
 ```javascript
 // Protocol	    Host	                            Path
@@ -68,4 +69,23 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
 
 ##### Request-Response pattern
   ![image](https://github.com/GayashanDeshapriya/Application-Programming-Interfaces-API-/assets/94686812/c62097db-4bed-4255-8535-cea830f7b3e0)
+  - The client is the agent making a request. A client could be a browser or an application you have coded
+  - The request is sent over a network to some server.
+  - The server interpreted the request (GET /books) and sent the appropriate response over the network back to the client
 
+##### Query parameters
+- Query parameters are added to the end of the path. They start with a question mark ?, followed by the key-value pairs in the format: <key>=<value>. For example, this request might fetch all photos that have landscape orientation:
+     - GET https://some-api.com/photos?orientation=landscape
+
+- If multiple query parameters exist, each is separated by an ampersand &. Below are two query parameters to specify the orientation and size of the photos to be returned:
+     - GET https://some-api.com/photos?orientation=landscape&size=500x400
+
+##### Path Variable
+   - Another way of passing request data to an API is via path variables (a.k.a. "path parameters"). A path variable is a dynamic section of a path and is often used for IDs and entity names such as usernames. 
+
+| Path Variable          | Query Parameters                                        |
+|------------------------|---------------------------------------------------------|
+| ex: /books/abc123      | ex: /books?search=borges&checkedOut=false              |
+| Located directly after a slash in the path. It can be anywhere on the path | Located only at the end of a path, right after a question mark? |
+| Accepts dynamic values | Accepts defined query keys with potentially dynamic values. |
+| Often used for IDs or entity names | Often used for options and filters                       |
