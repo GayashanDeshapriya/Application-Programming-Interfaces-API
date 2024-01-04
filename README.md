@@ -59,7 +59,13 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
   - DELETE	Delete data (Delete)
 
 #### Request URL
+  - In addition to a request method, a request must include a request URL that indicates where to make the API call. A request URL has three parts: a protocol (such as http:// or https://), host (location of the server), and path (route on the server). In REST APIs, the path often points to a reference entity, like "books".
+    
 ```javascript
-// Protocol	    Host	                              Path
+// Protocol	    Host	                            Path
     https://	    library-api.postmanlabs.com	        /books
 ```
+
+##### Request-Response pattern
+  ![image](https://github.com/GayashanDeshapriya/Application-Programming-Interfaces-API-/assets/94686812/c62097db-4bed-4255-8535-cea830f7b3e0)
+
