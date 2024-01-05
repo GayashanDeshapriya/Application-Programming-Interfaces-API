@@ -103,3 +103,21 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
             - API Keys (secret strings registered to a developer from an API portal).
 
 ## GraphQL
+
+#Some ways to make API request 
+ **01.XMLHttpReuest**
+ **02.JQuery.get()**
+ **Javascript.fetch()**
+
+**01.XMLHttpReuest**
+```javascript
+var= request = new XMLHttpRequest();
+request.open('GET, 'http//hplusupport.com/api/product');
+request.onload=function(){
+    var response =request.response;
+    var parseData=JSON.parse(response);
+    console.log(parseData);
+}
+request.send();
+```
+ 
