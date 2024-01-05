@@ -105,9 +105,9 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
 ## GraphQL
 
 # Some ways to make API request 
- **01.XMLHttpReuest**
- **02.JQuery.get()**
- **Javascript.fetch()**
+ - **01.XMLHttpReuest**
+ - **02.JQuery.get()**
+ - **Javascript.fetch()**
 
 **01.XMLHttpReuest**
 ```javascript
