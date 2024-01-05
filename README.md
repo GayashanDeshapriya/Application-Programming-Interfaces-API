@@ -14,15 +14,15 @@ ex: apps that interact with Twitter or Meta APIs by posting on your behalf or re
 ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's text messaging and email APIs
 
 ## Type of APIs
-  -- Hardware APIs
+  1. Hardware APIs
   - Interface for software to talk to hardware.
     Example: How your phone's camera talks to the operating system.
 
-### Software Library APIs
+  2. Software Library APIs
   - Interface for directly consuming code from another code base.
     Example: Using methods from a library you import into your application.
 
-### Web APIs
+  3.  Web APIs
   - Interface for communicating across code bases over a network.
     Example: Fetching current stock prices from a finance API over the internet.
 
