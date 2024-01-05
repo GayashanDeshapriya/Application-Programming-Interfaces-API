@@ -112,7 +112,7 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
 **01.XMLHttpReuest**
 ```javascript
 var= request = new XMLHttpRequest();
-request.open('GET, 'http//hplusupport.com/api/product');
+request.open('GET, 'http://hplusupport.com/api/product');
 request.onload=function(){
     var response =request.response;
     var parseData=JSON.parse(response);
@@ -120,4 +120,24 @@ request.onload=function(){
 }
 request.send();
 ```
- 
+**02. JQuery.get()** 
+```javascript
+$.get('http://hplusupport.com/api/product', function(response) {
+ console.log(response)
+}
+```
+**03. fetch()** 
+```javascript
+fetch('http://hplusupport.com/api/product) //connect and make a request(default in GET )
+// then allow us to chain together multiple methods or actions that we want to do with the response
+.then(           
+ function(response) {
+  return response.json(); //take the response and take the data as JSON
+}
+)
+.then(
+ function(respData){
+  console.log(respData);
+}
+)
+```
