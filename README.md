@@ -128,11 +128,10 @@ $.get('http://hplusupport.com/api/product', function(response) {
 ```
 **03. fetch()** 
 ```javascript
-fetch('http://hplusupport.com/api/product) /* connect and make a request(default in GET )
-then allow us to chain together multiple methods or actions that we want to do with the response */
+fetch('http://hplusupport.com/api/product) 
 .then(           
  function(response) {
-  return response.json(); //take the response and take the data as JSON
+  return response.json(); 
 }
 )
 .then(
