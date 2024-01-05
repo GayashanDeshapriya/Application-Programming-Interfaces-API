@@ -128,15 +128,15 @@ $.get('http://hplusupport.com/api/product', function(response) {
 ```
 **03. fetch()** 
 ```javascript
-fetch('http://hplusupport.com/api/product) 
-.then(           
- function(response) {
-  return response.json(); 
-}
+fetch('https://hplussport.com/api/products')
+.then(
+	function(response) {
+		return response.json();
+	}
 )
 .then(
- function(respData){
-  console.log(respData);
-}
+	function(respData) {
+		console.log(respData);
+	}
 )
 ```
