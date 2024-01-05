@@ -7,10 +7,10 @@ var cat = {
 }
 
 //Get the cat's name
-var catName = 
+var catName = cat.name
 
 //Get the owner's name
-var catOwner = 
+var catOwner = cat.owner.name
 
 //Show a message
 alert(catOwner + " has a cute cat named " + catName)
