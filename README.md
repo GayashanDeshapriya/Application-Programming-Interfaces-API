@@ -14,19 +14,19 @@ ex: apps that interact with Twitter or Meta APIs by posting on your behalf or re
 ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's text messaging and email APIs
 
 ## Type of APIs
-  #### Hardware APIs
+  ### Hardware APIs
   - Interface for software to talk to hardware.
     Example: How your phone's camera talks to the operating system.
 
-#### Software Library APIs
+### Software Library APIs
   - Interface for directly consuming code from another code base.
     Example: Using methods from a library you import into your application.
 
-#### Web APIs
+### Web APIs
   - Interface for communicating across code bases over a network.
     Example: Fetching current stock prices from a finance API over the internet.
 
-### Some of the API 
+## Some of the API 
   - REST (Representational State Transfer)
   - GraphQL
   - WebSockets
@@ -35,16 +35,16 @@ ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's
   - gRPC (Google Remote Procedure Call)
   - MQTT (MQ Telemetry Transport)
 
-### Access
+## Access
  - APIs also vary in the scope of who can access them.
 
-    ##### Public APIs (aka Open APIs)
+    ### Public APIs (aka Open APIs)
     - Consumed by anyone who discovers the API
 
-    ##### Private APIs
+    ### Private APIs
     - Consumed only within an organization and not made public
 
-    ##### Partner APIs
+    ### Partner APIs
     - Consumed between one or more organizations that have an established relationship
 
 
@@ -100,4 +100,6 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
   - There are multiple methods for authorizing a request. Some examples are
             - Basic Auth (username and password)
             - OAuth (delegated authorization)
-            - API Keys (secret strings registered to a developer from an API portal). 
+            - API Keys (secret strings registered to a developer from an API portal).
+
+## GraphQL
