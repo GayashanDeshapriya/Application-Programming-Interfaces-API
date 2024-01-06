@@ -53,11 +53,11 @@ ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's
 
 Some common HTTP request methods correspond to the CRUD operations mentioned earlier. You can see a list of more methods here.
 
-###### Method name  - Operation
-  - GET	Retrieve data (Read)
-  - POST	Send data (Create)
-  - PUT/PATCH	Update data (Update) (PUT usually replaces an entire resource, whereas PATCH usually is for partial updates)
-  - DELETE	Delete data (Delete)
+- Method name  -> Operation
+  - GET		->	Retrieve data (Read)
+  - POST	->	Send data (Create)
+  - PUT/PATCH	->	Update data (Update) (PUT usually replaces an entire resource, whereas PATCH usually is for partial updates)
+  - DELETE	->	Delete data (Delete)
 
 #### Request URL
   - In addition to a request method, a request must include a request URL that indicates where to make the API call. A request URL has three parts: a protocol (such as http:// or https://), host (location of the server), and a path (route on the server). In REST APIs, the path often points to a reference entity, like "books".
@@ -102,7 +102,6 @@ Some common HTTP request methods correspond to the CRUD operations mentioned ear
             - OAuth (delegated authorization)
             - API Keys (secret strings registered to a developer from an API portal).
 
-## GraphQL
 
 # Some ways to make API request 
  - **01. XMLHttpReuest**
@@ -140,3 +139,11 @@ fetch('https://hplussport.com/api/products')
 	}
 )
 ```
+## Erro Handling And Security
+- **Response Status Codes**
+   	- 200s	->	Good
+   	- 300s  ->	Redirect
+   	- 400s  ->	Client Error
+   	- 500s  ->	Server Error
+  	
+ 		
