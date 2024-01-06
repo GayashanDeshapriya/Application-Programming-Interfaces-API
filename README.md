@@ -34,6 +34,7 @@ ex: Software as a Service (SaaS) products like Stripe's payment APIs or Twilio's
   - SOAP (Simple Object Access Protocol)
   - gRPC (Google Remote Procedure Call)
   - MQTT (MQ Telemetry Transport)
+  - ![image](https://github.com/GayashanDeshapriya/Application-Programming-Interfaces-API-/assets/94686812/c844c99f-e844-4017-bb3a-81bdec76bbe1)
 
 ## Access
  - APIs also vary in the scope of who can access them.
