@@ -3,6 +3,8 @@
 ## What is API:
 - An Application Programming Interface (API) is a contract that allows code to talk to other code. APIs are the building blocks of modern software because they allow for the sharing of resources and services across applications, organizations, and devices.
 
+  ![image](https://github.com/GayashanDeshapriya/Application-Programming-Interfaces-API-/assets/94686812/c24b4100-d8e3-4670-8466-5b30f5fb9b62)
+
 ## Why are APIs important?
 - APIs help developers integrate exciting features and build automation without reinventing the wheel
 ex: using a Weather API instead of launching your weather balloons
