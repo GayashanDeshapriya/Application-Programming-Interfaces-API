@@ -146,5 +146,7 @@ fetch('https://hplussport.com/api/products')
    	- 300s  ->	Redirect
    	- 400s  ->	Client Error
    	- 500s  ->	Server Error
-  	
+
+   ![image](https://github.com/GayashanDeshapriya/Application-Programming-Interfaces-API-/assets/94686812/b4a0224b-d06b-4f06-b5f8-00a8fe21dda5)
+
  		
