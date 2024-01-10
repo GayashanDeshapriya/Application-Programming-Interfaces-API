@@ -162,4 +162,7 @@ fetch('https://hplussport.com/api/products')
 
    ![image](https://github.com/GayashanDeshapriya/Application-Programming-Interfaces-API-/assets/94686812/b4a0224b-d06b-4f06-b5f8-00a8fe21dda5)
 
+## API tests
+- 9 types of API tests that are crucial for creating reliable and secure applications
+![image](https://github.com/GayashanDeshapriya/Application-Programming-Interfaces-API-/assets/94686812/db55a6d7-6cb0-4347-bfa0-90cfbd878b27)
  		
